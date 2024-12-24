@@ -5,10 +5,10 @@ import Dates from "../Dates/Dates";
 import Education from "../Education/Education";
 import Experience from "../Experience/Experience";
 
-const User = ({ user, refreshUserData }) => {
+const User = ({ user, refreshUserData, setImg }) => {
   return (
     <section>
-      <About user={user} />
+      <About setImg={setImg} user={user} />
       <Job jobData={user} refreshUserData={refreshUserData} />
       <Dates user={user} refreshUserData={refreshUserData} />
       <Education user={user} refreshUserData={refreshUserData} /> 

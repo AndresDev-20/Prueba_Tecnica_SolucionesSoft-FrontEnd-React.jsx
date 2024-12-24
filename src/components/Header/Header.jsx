@@ -1,8 +1,11 @@
 import React from "react"
 import './Header.css'
 
-const Header = () => {
+const Header = ({data}) => {
+    const algoritmo = data?.name.split(" ")[0]
+    
 
+    
     return (
         <header className="Header"> 
             <div className="Header__div">
@@ -11,9 +14,9 @@ const Header = () => {
                 </figure>
             </div>
             <nav className="Header__nav">
-                <h1 className="Header__name"><span>Francisco</span> <span>Bienvenido</span></h1>
+                <h1 className="Header__name"><span>{algoritmo}</span> <span>Bienvenido</span></h1>
                 <figure className="Header__nav-figure">
-                    <img src="../../../images/Avatar.png" alt="avatar" />
+                    <img src={data?.img} alt="avatar" />
                 </figure>
                 <button className="Header__btn"><i className='bx bx-menu-alt-left'></i></button>
             </nav>

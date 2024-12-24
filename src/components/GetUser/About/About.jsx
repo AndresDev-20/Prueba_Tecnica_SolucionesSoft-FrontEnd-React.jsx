@@ -2,10 +2,18 @@ import React, { useRef, useState, useEffect } from "react";
 import './About.css';
 import { useNavigate } from "react-router-dom";
 
-const About = ({ user }) => {
+const About = ({ user, setImg }) => {
     const fileInputRef = useRef(null);
     const [imageFondo, setImageFondo] = useState(user.images.find(img => img.type === "fondo")?.url);
     const [imagePerfil, setImagePerfil] = useState(user.images.find(img => img.type === "perfil")?.url);
+    useEffect(() => {
+        const dataHeader = {
+            img: imagePerfil, 
+            name: user.name
+        };
+        setImg(dataHeader);
+    }, [imagePerfil, user.name, setImg]);
+    
     const navigate = useNavigate()
 
     useEffect(() => {
