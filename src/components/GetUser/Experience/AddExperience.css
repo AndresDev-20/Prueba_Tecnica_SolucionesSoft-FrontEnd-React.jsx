@@ -1,0 +1,127 @@
+/* AddExperience.css */
+.AddExperience {
+    background-color: var(--color3);
+    color: #ffffff;
+    padding: 2rem;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .AddExperience__title {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  
+  .AddExperience__form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .AddExperience__fields {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+  }
+  
+  .AddExperience__field {
+    flex: 1;
+    min-width: 220px;
+  }
+  
+  .AddExperience__field label {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .AddExperience__field input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    background-color: var(--color2);
+    color: var(--color3);
+    font-size: 1rem;
+  }
+  
+  .AddExperience__achievements {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .AddExperience__achievements label {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .AddExperience__achievements textarea {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid var(--color2);
+    border-radius: 5px;
+    background-color: var(--color2);
+    color: var(--color3);
+    font-size: 1rem;
+    resize: none;
+    min-height: 100px;
+  }
+  
+  .AddExperience__extras {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .AddExperience__checkbox {
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .AddExperience__buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+  
+  .AddExperience__btn {
+    flex: 1;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .AddExperience__btn--cancel {
+    background-color: var(--color11);
+    color: var(--color2);
+    border: 1px solid var(--color11);
+  }
+  
+  .AddExperience__btn--submit {
+    background: var(--color1);
+    color: var(--color2);
+  }
+  
+.AddExperience__field select {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    background-color: var(--color2);
+    color: var(--color3);
+    font-size: 1rem;
+  }
+  
+  .AddExperience__field select option {
+    background-color: #003366;
+    color: #ffffff;
+  }
+  

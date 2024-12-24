@@ -1,0 +1,234 @@
+.Job {
+    background-color: var(--color4);
+    width: 100%;
+    max-width: 24em;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    margin: auto;
+    border-radius: 1em;
+    margin-top: 4em;
+}
+
+.Job__title {
+    font-size: 24px;
+    color: var(--color3);
+    font-weight: 600;
+}
+
+.Job__ted {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Job__jobs {
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+}
+
+.Job__article {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.Job__article-title {
+    color: var(--color3);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.Job__Update-article-title {
+    color: var(--color3);
+    text-align: start;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.Job__ted > button {
+    border-radius: 50%;
+    width: 2em;
+    height: 2em;
+    font-size: 1.1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.Job__figure {
+    width: 100%;
+    max-width: 4.5em;
+}
+
+.Job__div {
+    display: flex;
+    flex-direction: column;
+    gap: .7em;
+}
+
+.Job__Update-jobs {
+    display: grid;
+    justify-content: start;
+    gap: 4.5em;
+    width: 100%;
+}
+
+.Job__Update-article {
+    display: grid;
+    gap: 1em;
+}
+
+.Job__Update-h1 {
+    font-size: 14px;
+    font-weight: 500;
+    color: #350D34;
+    margin-top: 1em;
+}
+
+.Job__Update-article > div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+
+.Job__update-btn {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    gap: 2em;
+}
+
+.Job__update-btn > button {
+    padding: .5em;
+    background: var(--color1);
+    width: 100%;
+    max-width: 10em;
+    color: var(--color2);
+    border: none;
+    border-radius: 1em;
+    margin-top: 3em;
+    cursor: pointer;
+}
+
+.Job__Update-div {
+    border: 2px solid transparent;
+    padding: 10px;
+    transition: border-color 0.3s, background-color 0.3s;
+  }
+  
+  .Job__Update-div > img.selected {
+    border: 3px solid red; 
+    background-color: #ee2c2c; 
+    border-radius: 50%;
+  }
+  
+  .Job__Update-div > img:hover {
+    border-radius: 50%;
+    border: 3px solid var(--color10); 
+    transform: scale(10px);
+  }
+  
+  
+@media (min-width: 700px) {
+    .Job {
+        background-color: var(--color4);
+        width: 100%;
+        max-width: 1000px;
+        padding: 1em;
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        margin: auto;
+        border-radius: 1em;
+        margin-top: 10em;
+    }
+
+    .Job__ted {
+        display: flex;
+        justify-content: space-around;
+        position: relative;
+    }
+
+    .Job__edit {
+        position: absolute;
+        right: 0;
+    }
+
+    .Job__div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: .7em;
+    }
+
+    .Job__jobs {
+        display: flex;
+        flex-direction: row;
+        gap: 5em;
+        justify-content: center;
+        margin-top: 3em;
+    }
+
+    .Job__title {
+        font-size: 30px;
+        color: var(--color3);
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .Job__update-btn {
+        width: 100%;
+        display: flex;
+        justify-content: end;
+        padding: 1em;
+        gap: 1em;
+    }
+
+    .Job__Update-jobs {
+        display: grid;
+        justify-content: center;
+        gap: 4.5em;
+        width: 100%;
+    }
+    
+    .Job__Update-article {
+        display: grid;
+        gap: 1em;
+    }
+    
+    .Job__Update-h1 {
+        font-size: 14px;
+        font-weight: 500;
+        color: #350D34;
+        margin-top: 1em;
+    }
+    
+    .Job__Update-article > div {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        gap: 2em;
+    }
+
+    .Job__update-btn > button {
+        padding: .5em;
+        background: var(--color1);
+        width: 100%;
+        max-width: 10em;
+        color: var(--color2);
+        border: none;
+        border-radius: 1em;
+        margin-top: 3em;
+        cursor: pointer;
+    }
+
+    .Job__update-btn > button:hover {
+        background-color: #ee2c2c;
+    }
+}

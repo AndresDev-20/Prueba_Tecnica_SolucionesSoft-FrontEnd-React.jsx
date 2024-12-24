@@ -1,0 +1,305 @@
+.Dates {
+    box-shadow: 0px 4px 10px 0px #00000026;
+    width: 100%;
+    max-width: 24em;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    margin: auto;
+    border-radius: 1em;
+    margin-top: 1em;
+}
+
+.Dates__inicio {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Dates__title {
+    font-size: 20;
+    font-weight: 600;
+    color: var(--color3);
+}
+
+.Dates__inicio > button {
+    border-radius: 50%;
+    width: 2em;
+    height: 2em;
+    font-size: 1.1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.Dates__article1 {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.Dates__div {
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+}
+
+.Dates__div > h2 {
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: .2em;
+}
+
+.Dates__div > p {
+    font-size: 16px;
+    color: var(--color3);
+}
+
+.linea__discontinua {
+    width: 100%; 
+    border: 0;
+    border-top: 2px dashed #d3d3d3; 
+    margin: 20px 0;
+}
+
+.Dates__article2 {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.Dates__date {
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+}
+
+.Dates__date > h1 {
+    font-size: 12px;
+    color: var(--color3); 
+    padding: 0.5em; 
+    padding-left: .9em;
+    padding-right: .9em;
+    border-radius: 1em;
+}
+
+.date__nombre {
+    background-color: var(--color5); 
+    width: 100%;
+    max-width: 6em;
+}
+
+.date__profetion {
+    background-color: var(--color5); 
+    width: 100%;
+    max-width: 6.6em;
+}
+
+.date__espe {
+    background-color: var(--color5); 
+    width: 100%;
+    max-width: 9.7em;
+}
+
+.date__iden {
+    background-color: var(--color5); 
+    width: 100%;
+    max-width: 14em;
+}
+
+.date__ciudad {
+    background-color: var(--color5); 
+    max-width: 12.5em;
+}
+
+.travel {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: -.9em;
+}
+
+.date__correo {
+    background-color: var(--color5); 
+    max-width: 11.2em;
+}
+
+.date__celular {
+    background-color: var(--color5); 
+    max-width: 11.3em;
+}
+
+.date__red {
+    background-color: var(--color5); 
+    max-width: 9.8em;
+}
+
+.Dates__date > p {
+    color: var(--color3);
+    display: flex;
+    align-items: center;
+}
+
+.date__red-enlace > span > i {
+    color: #045480;
+    font-size: 2em;
+}
+
+.Dates__article3 {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2em;
+}
+
+.Dates__article3 > div {
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+}
+
+.Dates__article3 > div > h1 {
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: .4em;
+    font-weight: 500;
+}
+
+.date_emo {
+    font-size: 20px;
+}
+
+.Dates__article3 > div > p {
+   font-size: 16px; 
+   color: var(--color3);
+}
+
+
+
+.Update {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.Update-group {
+  display: grid;
+  gap: 15px;
+}
+
+.Update-group2 {
+    display: grid;
+    gap: 15px;
+  }
+
+.Update-subgroup {
+  display: grid;
+  gap: 15px;
+}
+
+.Update-field {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 100%;
+}
+
+.Update-field label {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--color3);
+}
+
+.Update-field > textarea {
+    width: 100%; /* Asegura que ocupe el 100% del contenedor */
+    max-width: 100%; /* Evita que exceda el ancho del contenedor en cualquier tamaño */
+    color: var(--color3);
+    padding: 8px 12px;
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight: 400;
+    border: none;
+    background-color: #F2F2F2;
+    height: 140px; /* Mantiene la altura fija */
+    resize: vertical; /* Permite al usuario ajustar la altura */
+    box-sizing: border-box; /* Asegura que el padding esté incluido en el ancho total */
+}
+
+.Update-input {
+  padding: 8px 12px;
+  border: none;
+  background-color: #F2F2F2;
+  border-radius: 4px;
+  font-size: 13px;
+  font-weight: 400;
+  width: 100%;
+  height: 50px;
+  color: var(--color3);
+}
+
+.Update-field > textarea:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+
+.Update-input:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.UpdateDates {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.UpdateDates > button {
+    padding: .5em;
+        background: var(--color1);
+        width: 100%;
+        max-width: 10em;
+        color: var(--color2);
+        border: none;
+        border-radius: 1em;
+        margin-top: 3em;
+        cursor: pointer;
+}
+
+
+@media (min-width: 700px) {
+    .Dates {
+        box-shadow: 0px 4px 10px 0px #00000026;
+        width: 100%;
+        max-width: 1000px;
+        padding: 1em;
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        margin: auto;
+        border-radius: 1em;
+        margin-top: 4em;
+    }
+
+    .Update-group {
+        display: flex;
+        gap: 15px;
+      }
+      
+      .Update-group2 {
+          display: grid;
+          gap: 15px;
+        }
+      
+      .Update-subgroup {
+        display: flex;
+        gap: 15px;
+      }
+    
+}

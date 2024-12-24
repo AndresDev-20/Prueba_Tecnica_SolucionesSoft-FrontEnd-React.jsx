@@ -1,0 +1,137 @@
+.Experience {
+    background-color: var(--color8);
+    width: 100%;
+    max-width: 24em;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    margin: auto;
+    border-radius: 1em;
+    margin-top: 1em;
+    margin-bottom: 15em;
+}
+
+
+.Experience__titles {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Experience__title {
+    color: var(--color3);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.ex__plus {
+    border: 1px solid;
+    border-radius: 50%;
+    padding: .2em;
+    cursor: pointer;
+    color: var(--color2);
+}
+
+.linea__discontinua-edu {
+    width: 100%; 
+    border: 0;
+    border-top: 2px dashed #a59f9f; 
+    margin: 20px 0;
+}
+
+.Experience__edu {
+    padding: 1em;
+    background-color: var(--color9);
+    border-radius: .7em;
+}
+
+.Experience__edu-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Experience__edu-title > h1 {
+    background-color: var(--color3);
+    color: var(--color2);
+    font-size: 12px;
+    padding: .3em;
+    border-radius: 1em;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    max-width: 14em;
+    margin-bottom: 2em;
+}
+
+.Experience__edu-title > ul {
+    display: flex;
+    list-style: none;
+    gap: .5em;
+}
+
+.Experience__edu-title > ul > li {
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: var(--color2);
+}
+
+.Experience__dates {
+    display: flex;
+    flex-direction: column;
+    gap: .7em;
+}
+
+.Experience__dates > div {
+    display: flex;
+    flex-direction: column;
+    gap: .4em;
+}
+
+.Experience__dates > div > h1 {
+    font-size: 14px;
+    color: var(--color10);
+    display: flex;
+    align-items: center;
+    gap: .3em;
+}
+
+.edu__emo {
+    font-size: 20px;
+}
+
+.Experience__dates > div > p {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--color2);
+}
+
+@media (min-width: 700px) {
+    .Experience {
+        background-color: var(--color3);
+        width: 100%;
+        max-width: 1000px;
+        padding: 1em;
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        margin: auto;
+        border-radius: 1em;
+        margin-top: 4em;
+        margin-bottom: 15em;
+    }
+
+    .Experience__edu {
+        padding: 1em;
+        background-color: var(--color9);
+        border-radius: .7em;
+        max-width: 400px;
+    }
+}

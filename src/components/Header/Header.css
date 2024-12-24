@@ -1,0 +1,76 @@
+.Header {
+    width: 100%;
+    background: var(--color1);
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+    align-items: center;
+    padding: 1em;
+    border-radius: 0px 0px 20px 20px;
+    z-index: 100000000;
+    position: fixed;
+    top: 0;
+}
+
+.Header__div {
+    width: 100%;
+    max-width: 9em;
+}
+
+.Header__nav {
+    width: 100%;
+    max-width: 20em;
+    display: flex;
+    gap: .5em;
+    text-align: end;
+    align-items: center;
+    justify-content: center;
+}
+
+.Header__name {
+    font-size: 15px;
+    color: var(--color2);
+}
+
+.Header__nav-figure {
+    width: 100%;
+    max-width: 4em;
+}
+
+.Header__btn {
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    color: var(--color2);
+    cursor: pointer;
+}
+
+@media (min-width: 700px) {
+    .Header__div {
+        width: 100%;
+        max-width: 9em;
+        margin-left: 6em;
+    }
+    
+    .Header__nav {
+        transform: scale(0);
+    }
+    
+    .Header__name {
+        font-size: 15px;
+        color: var(--color2);
+    }
+    
+    .Header__nav-figure {
+        width: 100%;
+        max-width: 4em;
+    }
+    
+    .Header__btn {
+        background-color: transparent;
+        border: none;
+        font-size: 25px;
+        color: var(--color2);
+        cursor: pointer;
+    }
+}
